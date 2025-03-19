@@ -1,0 +1,176 @@
+/* General Styles */
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0073e6;
+  padding: 15px 20px;
+}
+
+.navbar-logo {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.navbar-links {
+  display: flex;
+  gap: 15px;
+}
+
+.navbar-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.menu-toggle {
+  display: none;
+  background: none;
+  border: none;
+  color: white;
+  font-size: 24px;
+}
+
+@media (max-width: 768px) {
+  .navbar-links {
+      display: none;
+      flex-direction: column;
+      background-color: #0073e6;
+      position: absolute;
+      top: 60px;
+      right: 0;
+      width: 100%;
+      text-align: center;
+  }
+
+  .navbar-links.active {
+      display: flex;
+  }
+
+  .menu-toggle {
+      display: block;
+  }
+}
+
+/* Header Section */
+.header-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 400px;
+  background: url('/header.jpg') no-repeat center center/cover;  
+  color: rgb(2, 2, 2);
+  padding: 20px;
+}
+
+.header-section h2 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.header-section p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.header-section .cta-button {
+  display: inline-block;
+  padding: 12px 24px;
+  background: white;
+  color: #0073e6;
+  font-weight: bold;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.header-section .cta-button:hover {
+  background: #005bb5;
+  color: white;
+}
+
+/* Latest News and Blog */
+.news-section {
+  padding: 40px 20px;
+  background: #eef2f3; /* Light background for contrast */
+  text-align: center;
+}
+
+.news-container {
+  display: flex;
+  width: 100%;
+  overflow-x: auto; /* Allows horizontal scrolling for extra content */
+  gap: 20px;
+  padding: 20px 0;
+  background: white; /* Separate container with white background */
+}
+
+.news-section h3 {
+  font-size: 28px;
+  color: #0073e6;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.news-box {
+  flex: 0 0 auto;
+  width: 45%;
+  min-width: 300px;
+  background: white;
+  padding: 20px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  text-align: center;
+}
+
+/* Explore More Button */
+.explore-button {
+  margin-top: 20px;
+  padding: 12px 24px;
+  background: #0073e6;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.explore-button:hover {
+  background: #005bb5;
+}
+
+/* Security & Compliance */
+.security-section {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #0073e6;
+  color: white;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 20px;
+  background: #333;
+  color: white;
+}

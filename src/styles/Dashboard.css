@@ -1,0 +1,20 @@
+.dashboard-container {
+    max-width: 800px;
+    margin: 50px auto;
+    background: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  .dashboard-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .balance {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  

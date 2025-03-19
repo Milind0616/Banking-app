@@ -1,0 +1,30 @@
+.transactions-container {
+    max-width: 900px;
+    margin: 50px auto;
+    background: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  .transaction-list {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .transaction-list th,
+  .transaction-list td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+  }
+  
+  .transaction-list th {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .transaction-list tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
