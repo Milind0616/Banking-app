@@ -3,6 +3,7 @@ import { useNavigate } from "react-router-dom";
 import axios from "axios";
 import "../styles/Login.css";
 import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 
 
 function Login() {
@@ -78,6 +79,7 @@ function Login() {
       </form>
     </div>
     </div>
+    <Footer/>
     </>
   );
 }

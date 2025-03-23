@@ -1,6 +1,7 @@
 import { useState } from "react";
 import "../styles/Register.css";
 import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 
 
 const Register = () => {
@@ -130,6 +131,7 @@ const Register = () => {
       </form>
     </div>
     </div>
+    <Footer/>
     </>
   );
 };

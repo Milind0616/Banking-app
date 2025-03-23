@@ -26,6 +26,9 @@ function Navbar() {
           <Link to="/" onClick={() => setIsMenuOpen(false)}>Home</Link>
         </li>
         <li>
+          <Link to="/admin" onClick={() => setIsMenuOpen(false)}>Admin</Link>
+        </li>
+        <li>
           <Link to="/login" onClick={() => setIsMenuOpen(false)}>Login</Link>
         </li>
         <li>

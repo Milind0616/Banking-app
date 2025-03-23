@@ -2,9 +2,13 @@ import React from "react";
 import Navbar from "../components/Navbar";
 import "../styles/Home.css";
 import { Link } from "react-router-dom";
+import Footer from "../components/Footer";
 
 function Home() {
   return (
+    <>
+    
+
     <div>
       <Navbar />
       <header className="header-section">
@@ -48,10 +52,9 @@ function Home() {
           <li>✅ FDIC-insured for customer protection.</li>
         </ul>
       </section>
-
-
-
     </div>
+<Footer />
+    </>
   );
 }
 
