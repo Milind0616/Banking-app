@@ -1,7 +1,32 @@
 {
-    "users": [
-      { "id": 1, "name": "John Doe" },
-      { "id": 2, "name": "Jane Doe" }
+    "admins": [
+      {
+        "id": 1,
+        "username": "milind",
+        "password": "milind123"
+      }
+    ],
+    "customers": [
+      {
+        "id": 1,
+        "name": "John Doe",
+        "username": "johndoe",
+        "password": "pass123",
+        "mobileNumber": "9876543210",
+        "email": "john@example.com",
+        "AccountNumber": "ACC123456",
+        "balance": 1000.50
+      },
+      {
+        "id": 2,
+        "name": "Jane Smith",
+        "username": "janesmith",
+        "password": "pass456",
+        "mobileNumber": "8765432109",
+        "email": "jane@example.com",
+        "AccountNumber": "ACC654321",
+        "balance": 2500.75
+      }
     ]
   }
   
